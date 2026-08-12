@@ -190,6 +190,28 @@ export const PORTFOLIO_DATA: PortfolioData = {
       featured: false,
       metrics: "Custom conversational UI engine",
       year: "2026"
+    },
+        {
+      id: "threatlens",
+      title: "ThreatLens - Unsupervised Log Anomaly Detection",
+      category: "ai",
+      shortDescription: "Real-time security anomaly detection system comparing Isolation Forest and Autoencoder models on authentication and network telemetry.",
+      fullDescription: "ThreatLens is an end-to-end security ML system for detecting anomalies in authentication and network telemetry using two unsupervised models: Isolation Forest and an Autoencoder. It uses 10,250 synthetic security records with five injected attack patterns, trains both models without using labels, and evaluates them on a held-out test set. The system includes a FastAPI backend and live monitoring dashboard for real-time scoring, model comparison, diagnostic plots, and custom record analysis.",
+      thumbnail: "/assets/project-ai-agent.png",
+      tags: ["Python", "Scikit-learn", "Isolation Forest", "Autoencoder", "FastAPI", "Machine Learning", "Cybersecurity", "Anomaly Detection"],
+      role: "Solo ML & Cybersecurity Developer",
+      achievements: [
+        "Built an end-to-end unsupervised anomaly detection pipeline using Isolation Forest and an Autoencoder",
+        "Generated 10,250 synthetic authentication and network telemetry records with five realistic attack patterns",
+        "Compared both models across precision, recall, F1, ROC-AUC, and attack-specific recall, with the Autoencoder achieving 0.971 F1 and 0.999 ROC-AUC",
+        "Identified that the Autoencoder significantly outperformed Isolation Forest on subtle off-hours privileged access attacks, achieving 85.1% recall versus 14.9%",
+        "Built and deployed a FastAPI backend with a live monitoring dashboard for real-time dual-model scoring and diagnostics"
+      ],
+      githubUrl: "",
+      liveUrl: "",
+      featured: true,
+      metrics: "0.971 F1 · 0.999 ROC-AUC · 10,250 security records",
+      year: "2026"
     }
   ],
   skillCategories: [
