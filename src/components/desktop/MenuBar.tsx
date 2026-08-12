@@ -127,10 +127,10 @@ export const MenuBar: React.FC<MenuBarProps> = ({
             onToggleAI();
           }}
           className="flex items-center space-x-1 hover:text-cyan-300 px-2 py-0.5 rounded bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 font-semibold transition-all hover:bg-cyan-500/20"
-          title="AI Assistant Concierge"
+          title={`${PORTFOLIO_DATA.owner.name}'s AI`}
         >
           <Sparkles className="w-3.5 h-3.5 animate-pulse text-cyan-400" />
-          <span className="hidden sm:inline text-[11px]">AI Concierge</span>
+          <span className="hidden sm:inline text-[11px]">{PORTFOLIO_DATA.owner.name}&apos;s AI</span>
         </button>
 
         {/* Sound Toggle */}

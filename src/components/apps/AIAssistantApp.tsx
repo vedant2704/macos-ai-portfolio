@@ -97,7 +97,7 @@ export const AIAssistantApp: React.FC<AIAssistantAppProps> = ({ onExecuteAction 
             </div>
           </div>
           <div>
-            <h3 className="font-extrabold text-white text-sm">{PORTFOLIO_DATA.owner.name} Concierge AI</h3>
+            <h3 className="font-extrabold text-white text-sm">{PORTFOLIO_DATA.owner.name}&apos;s AI</h3>
             <p className="text-[11px] text-cyan-300">Intelligent Portfolio Assistant & UI Agent</p>
           </div>
         </div>

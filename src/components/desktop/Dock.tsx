@@ -64,7 +64,7 @@ export const DOCK_APPS: DockApp[] = [
   },
   {
     id: 'ai-assistant',
-    name: 'AI Concierge',
+    name: `${PORTFOLIO_DATA.owner.name}'s AI`,
     icon: <Sparkles className="w-6 h-6" />,
     color: 'from-cyan-400 via-indigo-500 to-purple-600'
   },

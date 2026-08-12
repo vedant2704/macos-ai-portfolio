@@ -58,7 +58,7 @@ export const DesktopBackground: React.FC<DesktopBackgroundProps> = ({
           </div>
 
           <p className="text-sm text-slate-400 leading-relaxed max-w-xl">
-            {PORTFOLIO_DATA.owner.tagline} Explore my macOS-inspired desktop workspace or ask my AI Concierge for a guided tour.
+            {PORTFOLIO_DATA.owner.tagline} Explore my macOS-inspired desktop workspace or ask my AI for a guided tour.
           </p>
 
           {/* Hero Quick Action Buttons */}
@@ -71,7 +71,7 @@ export const DesktopBackground: React.FC<DesktopBackgroundProps> = ({
               className="px-4 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-indigo-600 hover:from-cyan-400 hover:to-indigo-500 text-white font-semibold text-xs sm:text-sm flex items-center space-x-2 shadow-lg shadow-cyan-500/25 transition-all hover:scale-[1.03] active:scale-[0.98]"
             >
               <Sparkles className="w-4 h-4" />
-              <span>Ask Vedant's AI</span>
+              <span>Ask {PORTFOLIO_DATA.owner.name}&apos;s AI</span>
             </button>
 
             <button

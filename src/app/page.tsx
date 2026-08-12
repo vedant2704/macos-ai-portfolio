@@ -278,7 +278,7 @@ export default function Home() {
         {/* AI Assistant Floating Concierge Window */}
         <WindowFrame
           id="ai-assistant"
-          title={`${PORTFOLIO_DATA.owner.name} Concierge AI`}
+          title={`${PORTFOLIO_DATA.owner.name}'s AI`}
           icon={<Sparkles className="w-4 h-4 text-cyan-400" />}
           isOpen={openWindows.includes('ai-assistant')}
           isMinimized={minimizedWindows.includes('ai-assistant')}

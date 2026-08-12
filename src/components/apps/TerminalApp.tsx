@@ -69,7 +69,7 @@ export const TerminalApp: React.FC<TerminalAppProps> = ({ onOpenApp }) => {
   resume      - Preview ${PORTFOLIO_DATA.owner.name}'s resume
   contact     - Display contact info & launch mail form
   neofetch    - Show macOS portfolio system overview
-  ai <query>  - Ask the AI Concierge a question via CLI
+  ai <query>  - Ask ${PORTFOLIO_DATA.owner.name}'s AI a question via CLI
   clear       - Clear terminal scrollback buffer`
       });
     } else if (lower === 'about') {
