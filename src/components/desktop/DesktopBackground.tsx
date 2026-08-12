@@ -71,7 +71,7 @@ export const DesktopBackground: React.FC<DesktopBackgroundProps> = ({
               className="px-4 py-2.5 rounded-xl bg-gradient-to-r from-cyan-500 to-indigo-600 hover:from-cyan-400 hover:to-indigo-500 text-white font-semibold text-xs sm:text-sm flex items-center space-x-2 shadow-lg shadow-cyan-500/25 transition-all hover:scale-[1.03] active:scale-[0.98]"
             >
               <Sparkles className="w-4 h-4" />
-              <span>Ask AI Concierge</span>
+              <span>Ask Vedant's AI</span>
             </button>
 
             <button
