@@ -70,7 +70,7 @@ export const AboutApp: React.FC<AboutAppProps> = ({ onOpenApp, onToggleAI }) => 
               className="px-3 py-1.5 rounded-lg bg-cyan-500/20 hover:bg-cyan-500/30 text-cyan-300 text-xs font-semibold flex items-center space-x-1.5 border border-cyan-500/30 transition-colors"
             >
               <Sparkles className="w-3.5 h-3.5" />
-              <span>Ask Concierge</span>
+              <span>Ask {data.owner.name}&apos;s AI</span>
             </button>
           </div>
         </div>
