@@ -146,7 +146,7 @@ Opening Mail app...`
       newHistory.push({
         id: (Date.now() + 1).toString(),
         type: 'output',
-        text: `[AI CONCIERGE RESPONSE]:\n${res.responseText}`
+        text: `[${PORTFOLIO_DATA.owner.name.toUpperCase()}'S AI]:\n${res.responseText}`
       });
     } else if (lower.includes('sudo rm -rf')) {
       newHistory.push({
