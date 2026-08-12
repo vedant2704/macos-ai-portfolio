@@ -14,15 +14,14 @@ export const ResumeApp: React.FC = () => {
   };
 
   const handleDownload = () => {
-    sound.playClick();
-    const element = document.createElement('a');
-    const file = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
-    element.href = URL.createObjectURL(file);
-    element.download = `${data.owner.name.replace(/\s+/g, '-').toLowerCase()}-resume.json`;
-    document.body.appendChild(element);
-    element.click();
-    document.body.removeChild(element);
-  };
+  sound.playClick();
+  const element = document.createElement('a');
+  element.href = data.owner.resumePdfUrl;
+  element.download = `${data.owner.name.replace(/\s+/g, '-').toLowerCase()}-resume.pdf`;
+  document.body.appendChild(element);
+  element.click();
+  document.body.removeChild(element);
+};
 
   return (
     <div className="space-y-4">
